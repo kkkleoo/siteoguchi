@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Bebas+Neue&display=swap');
+
+:root {
+    --vermelho-valorant: #ff4655;
+    --preto: #0a0a0a;
+    --cinza: #2e2e2e;
+    --branco: #f5f5f5;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
+header {
+    background-color: var(--preto);
+    border-bottom: 3px solid var(--vermelho-valorant);
+}
+
+.nav-link {
+    color: var(--branco);
+    font-weight: 600;
+}
+
+.inicio-fundo {
+    background-image: url('img/logo2.avif');
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    height: 606px;
+    padding: 40px;
+    color: #fff;
+}
+
+.botao-inicio {
+    background-color: var(--vermelho-valorant);
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.display-4 {
+    font-family: 'Bebas Neue', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 3px 3px #000;
+    color: var(--vermelho-valorant);
+}
+
+#valorant {
+    background: url('img/pattern-valorant.png') top right no-repeat;
+    background-size: contain;
+    padding: 5rem 0;
+}
+
+h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: var(--vermelho-valorant);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#galeria {
+    background-color: var(--cinza);
+}
+
+.fundo-galeria {
+    background: url('img/pattern-valorant.png') bottom left no-repeat;
+    background-size: 150px;
+}
+
+#contato {
+    background-image: url('img/fundo-mapa.jpg');
+    background-size: cover;
+    padding: 4rem 0;
+}
+
+.formulario {
+    background-color: rgba(20, 20, 20, 0.9);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 70, 85, 0.6);
+}
+.formulario button {
+    background-color: var(--vermelho-valorant);
+    border: none;
+    color: #fff;
+    font-weight: bold;
+}
+.form-control {
+    background-color: #333;
+    color: #fff;
+    border: none;
+}
