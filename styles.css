@@ -93,3 +93,58 @@ h2 {
     color: #fff;
     border: none;
 }
+#acessibilidade {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+#botao-acessibilidade {
+    background: var(--vermelho-flamengo);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: transform 0.3s ease;
+}
+
+#botao-acessibilidade.rotacao-botao {
+    transform: rotate(180deg);
+}
+
+.lista-acessibilidade {
+    list-style: none;
+    background: rgba(0,0,0,0.8);
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 5px;
+    display: none;
+}
+
+.lista-acessibilidade li {
+    margin: 5px 0;
+}
+
+.lista-acessibilidade button {
+    width: 100%;
+    background: var(--preto);
+    color: var(--branco);
+    border: 1px solid var(--vermelho-flamengo);
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.apresenta-lista {
+    display: block;
+}
+
+.alto-contraste {
+    background-color: black !important;
+    color: yellow !important;
+}
+
